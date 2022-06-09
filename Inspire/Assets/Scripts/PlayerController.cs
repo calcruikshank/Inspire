@@ -113,8 +113,44 @@ public class PlayerController : MonoBehaviour
 
     private void Shoot()
     {
-        Transform newLaser = Instantiate(laser, firePoint.position, firePoint.rotation);
-        newLaser.GetComponent<LaserBehaviour>().InitializeBullet(stats, stats.attackPower);
+        int startingRotationMultiplier = 0;
+        if (stats.numOfBullets > 1)
+        {
+            if (stats.numOfBullets % 2 == 1)
+            {
+                startingRotationMultiplier = (stats.numOfBullets - 1) / 2;
+            }
+            else
+            {
+                startingRotationMultiplier = (stats.numOfBullets) / 2;
+            }
+        }
+        if (stats.numOfBullets % 2 == 1)
+        {
+            Transform newLaser = Instantiate(laser, firePoint.position, firePoint.rotation);
+            newLaser.localEulerAngles = new Vector3(newLaser.localEulerAngles.x, newLaser.localEulerAngles.y, newLaser.localEulerAngles.z);
+            newLaser.GetComponent<LaserBehaviour>().InitializeBullet(stats, stats.attackPower);
+        }
+        for (int i = 1; i < startingRotationMultiplier + 1; i++)
+        {
+            //change the angle based on the number of bullets
+
+            //if num of bullets is five get the middle number
+
+            Transform newLaser = Instantiate(laser, firePoint.position, firePoint.rotation);
+            newLaser.localEulerAngles = new Vector3(newLaser.localEulerAngles.x, newLaser.localEulerAngles.y, newLaser.localEulerAngles.z + (2 * i));
+            newLaser.GetComponent<LaserBehaviour>().InitializeBullet(stats, stats.attackPower);
+        }
+        for (int i = 1; i < startingRotationMultiplier + 1; i++)
+        {
+            //change the angle based on the number of bullets
+
+            //if num of bullets is five get the middle number
+
+            Transform newLaser = Instantiate(laser, firePoint.position, firePoint.rotation);
+            newLaser.localEulerAngles = new Vector3(newLaser.localEulerAngles.x, newLaser.localEulerAngles.y, newLaser.localEulerAngles.z - (2 * i));
+            newLaser.GetComponent<LaserBehaviour>().InitializeBullet(stats, stats.attackPower);
+        }
     }
 
     public void TakeDamage(float damageTaken)

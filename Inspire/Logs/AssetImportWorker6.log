@@ -15,7 +15,7 @@ C:/Users/cocru/Documents/GitHub/Inspire/Inspire
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-57884
+51448
 Successfully changed project path to: C:/Users/cocru/Documents/GitHub/Inspire/Inspire
 C:/Users/cocru/Documents/GitHub/Inspire/Inspire
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/cocru/Documents/GitHub/Inspire/Inspire
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 110.42 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 105.91 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.9f1 (921b45a28ab6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003726 seconds.
+Registered in 0.003971 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 93.62 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 90.89 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.515 seconds
+- Completed reload, in  0.534 seconds
 Domain Reload Profiling:
-	ReloadAssembly (516ms)
-		BeginReloadAssembly (52ms)
+	ReloadAssembly (535ms)
+		BeginReloadAssembly (56ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (402ms)
-			LoadAssemblies (50ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (413ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (83ms)
+			SetupTypeCache (91ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (253ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (256ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
+				RefreshPlugins (91ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (111ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006224 seconds.
+Registered in 0.006137 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\cocru\Documents\GitHub\Inspire\Inspire\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\cocru\Documents\GitHub\Inspire\Inspire\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 93.61 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 91.01 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.292 seconds
+- Completed reload, in  1.430 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1293ms)
+	ReloadAssembly (1431ms)
 		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1128ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (1264ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (200ms)
+			SetupTypeCache (204ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (757ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (881ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (543ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (660ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4267 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (225.7 KB). Loaded Objects now: 4719.
-Memory consumption went from 160.8 MB to 160.6 MB.
-Total: 3.178900 ms (FindLiveObjects: 0.326800 ms CreateObjectMapping: 0.101800 ms MarkObjects: 2.631600 ms  DeleteObjects: 0.117900 ms)
+Unloading 4269 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (225.8 KB). Loaded Objects now: 4721.
+Memory consumption went from 160.9 MB to 160.6 MB.
+Total: 3.473600 ms (FindLiveObjects: 0.320200 ms CreateObjectMapping: 0.110300 ms MarkObjects: 2.879900 ms  DeleteObjects: 0.161300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,114 +159,16 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 322268.664320 seconds.
+  Time since last request: 410079.423263 seconds.
   path: Assets/Prefabs/Planets/cyan-planet.prefab
   artifactKey: Guid(41235e96858e0144884084d1f0055563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Planets/cyan-planet.prefab using Guid(41235e96858e0144884084d1f0055563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5946f2f535a3b6c73a102d01db87630f') in 0.101567 seconds 
+Start importing Assets/Prefabs/Planets/cyan-planet.prefab using Guid(41235e96858e0144884084d1f0055563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9688373d85219387016904e86d70bf1c') in 0.126413 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prefabs/Planets/red-planet-sputnik.prefab
-  artifactKey: Guid(a9ddc5d830106c84c90350b65bed0cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Planets/red-planet-sputnik.prefab using Guid(a9ddc5d830106c84c90350b65bed0cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577a5f82c668d4c36a011007a0755e5d') in 0.014639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.179807 seconds.
-  path: Assets/Prefabs/Planets/cyan-planet.prefab
-  artifactKey: Guid(41235e96858e0144884084d1f0055563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Planets/cyan-planet.prefab using Guid(41235e96858e0144884084d1f0055563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e928bf3356f4e480f6cb7822a23a7654') in 0.025584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Prefabs/Planets/Red-Planet-With-Ice.prefab
-  artifactKey: Guid(d24e2fbfd0f28dd45949c8d1c47c20c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Planets/Red-Planet-With-Ice.prefab using Guid(d24e2fbfd0f28dd45949c8d1c47c20c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c2786408d715a8d035bf38345e917f') in 0.027363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
+  Time since last request: 0.000019 seconds.
   path: Assets/Prefabs/Planets/Purple-Planet.prefab
   artifactKey: Guid(637080c82179c5743a845af150795ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Planets/Purple-Planet.prefab using Guid(637080c82179c5743a845af150795ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b163bc7538465d44c12a2671cc52d3df') in 0.013026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Prefabs/Planets/red-planet-sputnik.prefab
-  artifactKey: Guid(a9ddc5d830106c84c90350b65bed0cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Planets/red-planet-sputnik.prefab using Guid(a9ddc5d830106c84c90350b65bed0cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cde677e5c5cff1bae749517230801b') in 0.030092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.122951 seconds.
-  path: Assets/Prefabs/Planets/cyan-planet.prefab
-  artifactKey: Guid(41235e96858e0144884084d1f0055563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Planets/cyan-planet.prefab using Guid(41235e96858e0144884084d1f0055563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197fe51b91357d95897fdb11ddfa0f51') in 0.029007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prefabs/Planets/Sand-Planet.prefab
-  artifactKey: Guid(7aeba3c368e812648b1f462855b2b212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Planets/Sand-Planet.prefab using Guid(7aeba3c368e812648b1f462855b2b212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2596099b09242e54d555709344cae474') in 0.047573 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Prefabs/Planets/Orange-Planet (1).prefab
-  artifactKey: Guid(b6f1e7504c353f94188ee2d5957a9bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Planets/Orange-Planet (1).prefab using Guid(b6f1e7504c353f94188ee2d5957a9bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc380b466a744df974a312fc2c27624') in 0.032762 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006153 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\cocru\Documents\GitHub\Inspire\Inspire\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\cocru\Documents\GitHub\Inspire\Inspire\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.079 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1079ms)
-		BeginReloadAssembly (124ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (865ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (228ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (477ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (355ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.73 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4262 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (192.8 KB). Loaded Objects now: 4727.
-Memory consumption went from 165.1 MB to 164.9 MB.
-Total: 3.665900 ms (FindLiveObjects: 0.364600 ms CreateObjectMapping: 0.104900 ms MarkObjects: 3.060800 ms  DeleteObjects: 0.134400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Start importing Assets/Prefabs/Planets/Purple-Planet.prefab using Guid(637080c82179c5743a845af150795ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca54b159984697d41fefa15fba07d79') in 0.064995 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

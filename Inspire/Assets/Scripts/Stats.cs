@@ -16,5 +16,6 @@ public class Stats : MonoBehaviour
     public float armor;
     public float fireRate;
     public float cooldownRate;
+    public int numOfBullets = 1;
 
 }

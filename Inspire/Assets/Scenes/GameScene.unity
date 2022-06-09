@@ -385,6 +385,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aiEnemyToSpawn: {fileID: 3327638296691616426, guid: 4ddf2d9634abe4642b43ebb4e4f78e84, type: 3}
+  timer: 0
+  totalNumber: 0
 --- !u!1 &1054846520
 GameObject:
   m_ObjectHideFlags: 0

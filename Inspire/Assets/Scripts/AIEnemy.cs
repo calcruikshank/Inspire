@@ -11,6 +11,7 @@ public class AIEnemy : MonoBehaviour
     Vector3 randomDirection;
     [SerializeField] Transform firePoint1, firePoint2;
 
+    bool hasDied = false;
 
     Stats stats;
 
@@ -182,6 +183,10 @@ public class AIEnemy : MonoBehaviour
     }
     internal void TakeDamage(float damageTaken)
     {
+        if (hasDied)
+        {
+            return;
+        }
         if (stats.currentHealth <= 0)
         {
             return;
@@ -189,6 +194,7 @@ public class AIEnemy : MonoBehaviour
         stats.currentHealth -= damageTaken;
         if (stats.currentHealth <= 0)
         {
+            hasDied = true;
             this.GetComponent<PowerUpGenerator>().InstantiateRandomPowerUps();
             Destroy(this.gameObject);
         }

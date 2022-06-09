@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyLaser : MonoBehaviour
 {
-    [SerializeField]float speed = 100f;
+    float speed = 40f;
     float damageOfProj;
     bool hasHit = false;
     Stats owner;

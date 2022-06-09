@@ -286,8 +286,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 073d6f00544adde4fb13c383e5805e6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 200
-  currentHealth: 200
+  maxHealth: 100
+  currentHealth: 100
   range: 30
   critChance: 10
   attackPower: 10
@@ -297,6 +297,7 @@ MonoBehaviour:
   armor: 0
   fireRate: 0.75
   cooldownRate: 0
+  numOfBullets: 1
 --- !u!50 &8512936850125379434
 Rigidbody2D:
   serializedVersion: 4

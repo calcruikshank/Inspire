@@ -5,6 +5,8 @@ using UnityEngine;
 public class PowerUpGenerator : MonoBehaviour
 {
     [SerializeField] Transform[] potentialBasePowerUps;
+
+    [SerializeField] Transform ExtraBulletTransform;
     public void InstantiateRandomPowerUps()
     {
         for (int i = 0; i < Random.Range(1, 10); i++)
@@ -14,6 +16,18 @@ public class PowerUpGenerator : MonoBehaviour
 
             Vector2 randomPositionWithinBounds = new Vector2(randomX, randomY);
             Transform newPowerUp = Instantiate(potentialBasePowerUps[Random.Range(0, potentialBasePowerUps.Length)], randomPositionWithinBounds, Quaternion.identity);
+        }
+
+        if (ExtraBulletTransform != null)
+        {
+            float randomRange = Random.Range(1, 100);
+            if (randomRange < 20)
+            {
+                float randomX = Random.Range(this.transform.position.x - this.GetComponent<Collider2D>().bounds.size.x / 2, this.transform.position.x + this.GetComponent<Collider2D>().bounds.size.x / 2);
+                float randomY = Random.Range(this.transform.position.y - this.GetComponent<Collider2D>().bounds.size.y / 2, this.transform.position.y + this.GetComponent<Collider2D>().bounds.size.y / 2);
+                Vector2 randomPositionWithinBounds = new Vector2(randomX, randomY);
+                Transform newPowerUp = Instantiate(ExtraBulletTransform, randomPositionWithinBounds, Quaternion.identity);
+            }
         }
     }
 }

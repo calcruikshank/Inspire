@@ -288,7 +288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 30
   currentHealth: 30
-  range: 20
+  range: 30
   critChance: 10
   attackPower: 20
   abilityPower: 10
@@ -297,6 +297,7 @@ MonoBehaviour:
   armor: 0
   fireRate: 0.75
   cooldownRate: 0
+  numOfBullets: 1
 --- !u!114 &1650297905498677984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -311,5 +312,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   potentialBasePowerUps:
   - {fileID: 8484525844008445369, guid: 251745cc5da6d414f9bc7ec75c878e5e, type: 3}
-  - {fileID: 7882586550091322643, guid: 5daf0ccf96c8f2241bd81ca0d61fd9ac, type: 3}
   - {fileID: 4503134098269320355, guid: 9ca80491102a8964b81a9d0d3a3c4920, type: 3}
+  ExtraBulletTransform: {fileID: 0}

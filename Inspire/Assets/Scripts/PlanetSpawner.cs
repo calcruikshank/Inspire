@@ -17,13 +17,13 @@ public class PlanetSpawner : MonoBehaviour
     [SerializeField] Transform[] planetsToSpawn;
     void Start()
     {
-        for (int i = 0; i < 50; i++)
+        for (int i = 0; i < 1000; i++)
         {
             float spawnY = Random.Range
-                (-280, 280);
+                (-4000, 4000);
                 //(Camera.main.ScreenToWorldPoint(new Vector2(0, 0)).y, Camera.main.ScreenToWorldPoint(new Vector2(0, Screen.height)).y) * 8;
             float spawnX = Random.Range
-                (-280, 280);
+                (-4000, 4000);
             //(Camera.main.ScreenToWorldPoint(new Vector2(0, 0)).x, Camera.main.ScreenToWorldPoint(new Vector2(Screen.width, 0)).x) * 8;
 
             Vector2 spawnPosition = new Vector2(spawnX, spawnY);
@@ -34,10 +34,10 @@ public class PlanetSpawner : MonoBehaviour
     public void SpawnRandomPlanet()
     {
         float spawnY = Random.Range
-                   (-280, 280);
+                (-4000, 4000);
         //(Camera.main.ScreenToWorldPoint(new Vector2(0, 0)).y, Camera.main.ScreenToWorldPoint(new Vector2(0, Screen.height)).y) * 8;
         float spawnX = Random.Range
-            (-280, 280);
+            (-4000, 4000);
         //(Camera.main.ScreenToWorldPoint(new Vector2(0, 0)).x, Camera.main.ScreenToWorldPoint(new Vector2(Screen.width, 0)).x) * 8;
 
         Vector2 spawnPosition = new Vector2(spawnX, spawnY);

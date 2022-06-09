@@ -8,7 +8,9 @@ public class Speed : PowerUpEffect
     public float amount;
     public override void Apply(GameObject target)
     {
-        
+        if (target.GetComponent<Stats>().moveSpeed < 90)
+        {
             target.GetComponent<Stats>().moveSpeed += amount;
+        }
     }
 }

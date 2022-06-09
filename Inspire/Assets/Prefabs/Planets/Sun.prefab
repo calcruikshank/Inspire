@@ -129,9 +129,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   potentialBasePowerUps:
-  - {fileID: 7882586550091322643, guid: 5daf0ccf96c8f2241bd81ca0d61fd9ac, type: 3}
   - {fileID: 8484525844008445369, guid: 251745cc5da6d414f9bc7ec75c878e5e, type: 3}
   - {fileID: 4503134098269320355, guid: 9ca80491102a8964b81a9d0d3a3c4920, type: 3}
+  - {fileID: 7882586550091322643, guid: 5daf0ccf96c8f2241bd81ca0d61fd9ac, type: 3}
+  ExtraBulletTransform: {fileID: 4264365440251014443, guid: feb43de0036c12747b1168eb97b6c38a, type: 3}
 --- !u!50 &-7013090235392750224
 Rigidbody2D:
   serializedVersion: 4
