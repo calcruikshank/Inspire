@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -162,6 +163,7 @@ public class PlayerController : MonoBehaviour
         stats.currentHealth -= damageTaken;
         if (stats.currentHealth <= 0)
         {
+            Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
             Destroy(this.gameObject);
         }
     }

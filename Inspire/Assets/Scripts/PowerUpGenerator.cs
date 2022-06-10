@@ -21,7 +21,7 @@ public class PowerUpGenerator : MonoBehaviour
         if (ExtraBulletTransform != null)
         {
             float randomRange = Random.Range(1, 100);
-            if (randomRange < 20)
+            if (randomRange < 101)
             {
                 float randomX = Random.Range(this.transform.position.x - this.GetComponent<Collider2D>().bounds.size.x / 2, this.transform.position.x + this.GetComponent<Collider2D>().bounds.size.x / 2);
                 float randomY = Random.Range(this.transform.position.y - this.GetComponent<Collider2D>().bounds.size.y / 2, this.transform.position.y + this.GetComponent<Collider2D>().bounds.size.y / 2);
