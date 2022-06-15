@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        FollowTargetTransform.singleton.SetTarget(transform);
+        PointBetweenPlayers.singleton.SetTarget(transform);
         stats = this.GetComponent<Stats>();
         rb = this.GetComponent<Rigidbody2D>();
         shotTimer = stats.fireRate;

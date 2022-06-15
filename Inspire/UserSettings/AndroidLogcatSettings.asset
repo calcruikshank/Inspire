@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "10.1.10.167:5555",
+    "m_SelectedDeviceId": "10.1.10.9:5555",
     "m_SelectedPackage": {
-        "deviceId": "10.1.10.167:5555",
+        "deviceId": "10.1.10.9:5555",
         "name": "com.DefaultCompany.Inspire",
-        "processId": 8500,
+        "processId": 4530,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -30,6 +30,24 @@
             "deviceId": "10.1.10.167:5555",
             "name": "com.DefaultCompany.Inspire",
             "processId": 8500,
+            "exited": false
+        },
+        {
+            "deviceId": "10.1.10.9:5555",
+            "name": "com.DefaultCompany.Inspire",
+            "processId": 5125,
+            "exited": false
+        },
+        {
+            "deviceId": "10.1.10.9:5555",
+            "name": "com.DefaultCompany.Inspire",
+            "processId": 5284,
+            "exited": false
+        },
+        {
+            "deviceId": "10.1.10.9:5555",
+            "name": "com.DefaultCompany.Inspire",
+            "processId": 4530,
             "exited": false
         }
     ],

@@ -40,7 +40,8 @@ public class AIEnemy : MonoBehaviour
     private void Awake()
     {
         stats = this.GetComponent<Stats>();
-        currentTarget = FindObjectOfType<PlayerController>().transform;
+        PlayerController[] playersInScene = FindObjectsOfType<PlayerController>();
+        currentTarget = playersInScene[Random.Range(0, playersInScene.Length)].transform;
         range = Random.Range(stats.range - 10, stats.range + 10);
         moveSpeed = Random.Range(stats.moveSpeed - 19, stats.moveSpeed);
     }
